@@ -5,8 +5,8 @@ import time
 
 # email = input('Digite seu e-mail: \n')
 # senha = input('Digite sua senha: \n')
-email = 'meuemail'
-senha = 'minha_senha'
+email = 'exemplo@gmail.com'
+senha = 'senha'
 
 assunto = 'E-mail enviado pelo bot'
 mensagem = 'Esta mensagem é um teste realizado com um software de automação.'
@@ -62,9 +62,10 @@ def run():
 
     print("E-mail enviado, vou deslogar...\n")
 
-    driver.get('https://accounts.google.com/Logout?hl=pt-BR&continue=https://mail.google.com/mail&service=mail&timeStmp=1570146401&secTok=.AG5fkS9_jxHQxqNizvv7gUJONxsVwkf9rg')
+    driver.get('https://accounts.google.com/Logout')
 
     print("Deslogado! Fechando o navegador...\n")
+    time.sleep(3)
     driver.close()
 
 
