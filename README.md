@@ -12,7 +12,7 @@ Pra executar essas tarefas, usei o selenium pra manipular o navegador chrome.
 
 Pra instalar o selenium basta executar no terminal o comando: 
 
->> pip3 install selenium
+> pip3 install selenium
 
 pip3 por que estou usando o python versão 3
 
@@ -21,4 +21,7 @@ Pra isso, baixe o binário de acordo com sua versão do chrome .
 
 Link pra download: 
 
->> https://chromedriver.chromium.org/downloads
+> https://chromedriver.chromium.org/downloads
+
+Link para a documentação do Python Selenium
+> https://selenium-python.readthedocs.io
