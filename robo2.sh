@@ -1,1 +1,0 @@
-python3 robo2.py
