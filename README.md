@@ -1,10 +1,10 @@
 # Bot send mail
 
-Software used to send mail
+Software used to send mail, based on html elements.
 
 # Tools used
 
-Python version 3.7:
+Python version 3.6:
 
 > apt-get install python3
 
