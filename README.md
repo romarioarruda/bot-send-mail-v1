@@ -1,4 +1,4 @@
-# Bot send mail
+# Bot send mail version 1
 
 Software used to send mail, based on html elements.
 
