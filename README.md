@@ -1,27 +1,23 @@
-# robos - automatizador de tarefas
+# Bot send mail
 
-O arquivo pesquisa-dominio.py é automatizador de buscas, ele executa uma pesquisa no site 
-registro.br, pega o resultado e escreve em arquivo quais os dominios disponiveis e não disponiveis.
+Software used to send mail
 
-O arquivo robo-send-mail-v1.py, simula um usuário acessando o gmail, ele acessa a conta, envia um e-mail pra 
-um destino e após o envio, desloga da conta e fecha o navegador.
+# Tools used
 
-Os arquivos .sh são apenas um executável desses dois arquivos python.
+Python version 3.7:
 
-Pra executar essas tarefas, usei o selenium pra manipular o navegador chrome.
+> apt-get install python3
 
-Pra instalar o selenium basta executar no terminal o comando: 
+Selenium webdriver:
 
 > pip3 install selenium
 
-pip3 por que estou usando o python versão 3
+Selenium documentation:
 
-Além disso, precisa do driver do chrome pra poder rodar no chrome obviamente.
-Pra isso, baixe o binário de acordo com sua versão do chrome .
+> https://selenium-python.readthedocs.io/
 
-Link pra download: 
+Chromedriver binary:
 
 > https://chromedriver.chromium.org/downloads
 
-Link para a documentação do Python Selenium
-> https://selenium-python.readthedocs.io
+The version of the chromedriver binary needs to be compatible with the installed google chrome version.
