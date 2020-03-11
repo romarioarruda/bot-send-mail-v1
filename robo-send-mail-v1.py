@@ -14,7 +14,7 @@ mensagem = 'Esta mensagem é um teste realizado com um software de automação.'
 
 def run():
     print("Iniciando execução do bot...\n")
-    driver = webdriver.Chrome('/home/whoami/curso-python/curso-udemy/bot/chromedriver_77')
+    driver = webdriver.Chrome('chromedriver_77')
     
     print("Abrindo o Gmail...\n")
     driver.get('https://www.google.com/gmail/')
